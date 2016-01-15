@@ -2,12 +2,9 @@
 <!DOCTYPE html>
 <!--[if IE 7]>
 <html class='ie ie7' lang='en-US' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-<![endif]-->
-<!--[if IE 8]>
+<![endif]--><!--[if IE 8]>
 <html class='ie ie8' lang='en-US' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-<![endif]-->
-<!--[if !(IE 7) | !(IE 8)  ]><!-->
-<html expr:dir='data:blog.languageDirection' lang='en-US' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<![endif]--><!--[if !(IE 7) | !(IE 8)  ]><!--><html expr:dir='data:blog.languageDirection' lang='en-US' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
   <!--<![endif]-->
   <head>
     <meta charset='UTF-8'/>
@@ -29,8 +26,8 @@
     <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-    <b:skin>
-      <![CDATA[
+    <b:skin><![CDATA[
+      
 body#layout ul{list-style-type:none;list-style:none}
 body#layout ul li{list-style-type:none;list-style:none}
 body#layout #headerbwrap {height:auto;}
@@ -1477,9 +1474,127 @@ z-index: 10000 !important;
 #blog-pager .pagecurrent{font-weight:bold;color: #fff;background:#DB4920;}
 .showpageOf{display:none!important}
 #blog-pager .pages{border:none;}
-]]>
-    </b:skin>
-    <script src='https://ajax.googleapis.com/ajax/libs/zz/1.11.2/jquery.min.js' type='text/javascript'/>
+/* Css3 tags */
+.cloud-label-widget-content	
+{  text-align: left;}
+.cloud-label-widget-content a {
+display: inline-block;   
+height:24px;
+line-height:23px;
+position:relative;
+margin: 0 12px 8px 0;
+padding: 0 12px 0 10px;
+background: #f58220;
+-moz-border-radius-bottomleft: 5px;
+-webkit-border-bottom-left-radius: 5px;
+border-bottom-left-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-webkit-border-top-left-radius: 5px;
+border-top-left-radius: 5px;
+box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+color: white !important;
+font-size:12px;
+text-decoration: none;
+text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+font-weight: bold;
+}
+.cloud-label-widget-content a:before {
+content: "";
+position: absolute;
+top: 10px;
+right: 1px;
+float: left;
+width: 5px;
+height: 5px;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+background: #fff;
+-moz-box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+-webkit-box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+box-shadow: -1px -1px 2px rgba(0,0,0,0.4);
+}
+.cloud-label-widget-content a:after {
+content: "";
+position: absolute;
+top:0;
+right: -12px;
+width: 0;
+height: 0;
+border-color: transparent transparent transparent #f58220;
+border-style: solid;
+border-width: 12px 0 12px 12px;
+}
+.label-size-5
+{
+opacity: 1 !important;
+}
+.label-size-4
+{
+opacity: 1 !important;
+}
+.label-size-3
+{
+opacity: 1 !important;
+}
+.label-size-2
+{
+opacity: 1 !important;
+}
+.label-size-1
+{
+opacity: 1 !important;
+}
+.tabs-menu ul {
+list-style: none;
+}
+.tabs-menu li {
+background-color: #ED7C00;
+display: inline-block;
+height: 37px;
+line-height: 37px;
+list-style: outside none none;
+margin-bottom: 0;
+margin-top: 0;
+padding: 3px 0;
+position: relative;
+text-align: center;
+transition: all 0.1s linear 0s;
+width: 50%;
+font-weight:bold;
+cursor: pointer;
+}
+.tabs-menu li a {
+padding: 0 10px;
+}
+.tabs-menu {
+margin-left: 0px !important;
+box-shadow: 0 0 3px #333;
+font-size: 0;
+}
+.tabs-menu .active {
+background: #f5f7fa none repeat scroll 0 0;
+color: Black;
+z-index: -1;
+}
+
+    ]]></b:skin>
+    <!--Jquery UI Css-->
+    <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css' rel='stylesheet'/>
+    <!--Animate Css-->    
+    <link href='https://5e75ec49c8156328d03cab27801cff50d47045a5-www.googledrive.com/host/0B4S6b2lVe4ZgMkE2ZEhSclUySGM' rel='stylesheet'/>
+    <!--[if lte IE 9]>
+<link href='https://1e9a4aeee0ea7b16b081fe98a47f8bd21763ce74-www.googledrive.com/host/0B4S6b2lVe4ZgUGRxNlJGS3ZOZTg' rel='stylesheet'>
+<![endif]-->
+    <!--Jquery JS-->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'>
+    </script>
+    <!--Jquery UI js-->
+    <script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'>
+    </script>
+    <!--Animate js-->
+    <script src='https://528d4ce61f560c90ee931235dedac13c74b6a778-www.googledrive.com/host/0B4S6b2lVe4ZgVC1keG0tLThON0E'>
+    </script>
     <!--Aspbucket Header js-->
     <script src='https://7dc9f2af774f68c0825a709011e8389993477f9f.googledrive.com/host/0B4S6b2lVe4Zgc0VaSDNxenNmbGc' type='text/javascript'/>
     <!--Aspbucket End Header js-->    
@@ -1587,7 +1702,7 @@ Child Category 4
               </ul>
             </div>
             <div class='header-iconsnbt'>
-              <a class='social-iconnbt facebook-iconnbt' href='https://www.facebook.com/trick4allpc/' rel='nofollow' target='_blank'/>
+              <a class='social-iconnbt facebook-iconnbt' href='https://www.facebook.com/aspbucket/' rel='nofollow' target='_blank'/>
               <a class='social-iconnbt twitter-iconnbt' href='#' rel='nofollow' target='_blank'/>
               <a class='social-iconnbt google-iconnbt' href='#' target='_blank'/>
               <a class='social-iconnbt rss-iconnbt' expr:href='data:blog.homepageUrl + &quot;feeds/posts/default&quot;' rel='nofollow' target='_blank'/>
@@ -1596,7 +1711,7 @@ Child Category 4
         </div>
         <div class='header-contentnbt'>
           <b:section class='headersec' id='headersec' maxwidgets='1' showaddelement='no'>
-            <b:widget id='Header1' locked='true' title='aspbucket (Header)' type='Header'>
+            <b:widget id='Header1' locked='true' title='AspBucket (Header)' type='Header'>
               <b:includable id='main'>
                 <b:if cond='data:useImage'>
                   <b:if cond='data:imagePlacement == &quot;REPLACE&quot;'>
@@ -1626,13 +1741,15 @@ user is not using shrink to fit then we expand the header.
                   </b:if>
                   <b:else/>
                   <!--No header image -->
-                  <div id='header-inner'>
+                  <div class='animatedParent animateOnce' data-sequence='500' id='header-inner'>
                     <div class='titlewrapper'>
-                      <h1 class='site-titlenbt'>
+                      <h1 class='site-titlenbt animated fadeInUpShort go' data-id='1'>
                         <b:include name='title'/>
                       </h1>
                     </div>
-                    <b:include name='description'/>
+                    <div class='animated fadeInUpShort go' data-id='2'>
+                      <b:include name='description'/>
+                    </div>
                   </div>
                 </b:if>
               </b:includable>
@@ -1664,28 +1781,16 @@ user is not using shrink to fit then we expand the header.
                 <a expr:href='data:blog.homepageUrl + &quot;p/aspnet.html&quot;'>
                   ASP.NET
                 </a>
-                <ul class='sub-menu'>
-                  <li>
-                    <a expr:href='data:blog.homepageUrl + &quot;search/label/C%23?&amp;max-results=5&quot;'>
-                      C#
-                    </a>
-                  </li>
-                  <li>
-                    <a expr:href='data:blog.homepageUrl + &quot;search/label/Visual Basic?&amp;max-results=5&quot;'>
-                      VB
-                    </a>
-                  </li>
-                  <li>
-                    <a expr:href='data:blog.homepageUrl + &quot;search/label/Linq?&amp;max-results=5&quot;'>
-                      Linq
-                    </a>
-                  </li>
-                  <li>
-                    <a expr:href='data:blog.homepageUrl + &quot;search/label/MVC?&amp;max-results=5&quot;'>
-                      MVC
-                    </a>
-                  </li>
-                </ul>
+              </li>
+              <li>
+                <a expr:href='data:blog.homepageUrl + &quot;p/c-sharp.html&quot;'>
+                  C#
+                </a>
+              </li>
+              <li>
+                <a expr:href='data:blog.homepageUrl + &quot;p/mvc.html&quot;'>
+                  MVC
+                </a>
               </li>
               <li>
                 <a expr:href='data:blog.homepageUrl + &quot;search/label/Sql?&amp;max-results=5&quot;'>
@@ -1746,12 +1851,29 @@ Child Category 4
                   Ajax
                 </a>
               </li>
+              <li>
+                <a href='#'>
+                  More
+                </a>
+                <ul class='sub-menu'>
+                  <li>
+                    <a expr:href='data:blog.homepageUrl + &quot;search/label/Visual Basic?&amp;max-results=5&quot;'>
+                      VB
+                    </a>
+                  </li>
+                  <li>
+                    <a expr:href='data:blog.homepageUrl + &quot;search/label/Linq?&amp;max-results=5&quot;'>
+                      Linq
+                    </a>
+                  </li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
       </header>
       <!-- end of header -->
-      <div id='main-contentnbt'>
+      <div class='animated fadeInUpShort go' data-sequence='500' id='main-contentnbt'>
         <div id='contentnbt'>
           <div class='home-latest-postsnbt'>
             <b:if cond='data:blog.url == data:blog.homepageUrl'>
@@ -2934,20 +3056,6 @@ Child Category 4
         <!-- end of content -->
         <div id='sidebarnbt'>
           <b:section class='sidebarrightnbt' id='sidebarrightnbt' preferred='yes'>
-            <b:widget id='HTML1' locked='false' title='' type='HTML'>
-              <b:includable id='main'>
-                <!-- only display title if it's non-empty -->
-                <b:if cond='data:title != &quot;&quot;'>
-                  <h2 class='title'>
-                    <data:title/>
-                  </h2>
-                </b:if>
-                <div class='widget-content'>
-                  <data:content/>
-                </div>
-                <b:include name='quickedit'/>
-              </b:includable>
-            </b:widget>
             <b:widget id='Label1' locked='false' title='Categories' type='Label'>
               <b:includable id='main'>
                 <b:if cond='data:title'>
@@ -2983,7 +3091,7 @@ Child Category 4
                     <b:loop values='data:labels' var='label'>
                       <span expr:class='&quot;label-size label-size-&quot; + data:label.cssSize'>
                         <b:if cond='data:blog.url == data:label.url'>
-                          <span expr:dir='data:blog.languageDirection'>
+                          <span class='animated tada go' expr:dir='data:blog.languageDirection'>
                             <data:label.name/>
                           </span>
                           <b:else/>
@@ -3005,92 +3113,16 @@ Child Category 4
                 </div>
               </b:includable>
             </b:widget>
-            <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts'>
+            <b:widget id='HTML1' locked='false' title='' type='HTML'>
               <b:includable id='main'>
-                <b:if cond='data:title'>
-                  <h2>
+                <!-- only display title if it's non-empty -->
+                <b:if cond='data:title != &quot;&quot;'>
+                  <h2 class='title'>
                     <data:title/>
                   </h2>
                 </b:if>
-                <div class='widget-content popular-posts'>
-                  <ul>
-                    <b:loop values='data:posts' var='post'>
-                      <li>
-                        <b:if cond='data:showThumbnails == &quot;false&quot;'>
-                          <b:if cond='data:showSnippets == &quot;false&quot;'>
-                            <!-- (1) No snippet/thumbnail -->
-                            <a expr:href='data:post.href'>
-                              <data:post.title/>
-                            </a>
-                            <b:else/>
-                            <!-- (2) Show only snippets -->
-                            <div class='item-title'>
-                              <a expr:href='data:post.href'>
-                                <data:post.title/>
-                              </a>
-                            </div>
-                            <div class='item-snippet'>
-                              <data:post.snippet/>
-                            </div>
-                          </b:if>
-                          <b:else/>
-                          <b:if cond='data:showSnippets == &quot;false&quot;'>
-                            <!-- (3) Show only thumbnails -->
-                            <div class='item-thumbnail-only'>
-                              <b:if cond='data:post.thumbnail'>
-                                <div class='item-thumbnail'>
-                                  <a expr:href='data:post.href' target='_blank'>
-                                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
-                                  </a>
-                                </div>
-                              </b:if>
-                              <div class='item-title'>
-                                <a expr:href='data:post.href'>
-                                  <data:post.title/>
-                                </a>
-                              </div>
-                            </div>
-                            <div style='clear: both;'/>
-                            <b:else/>
-                            <!-- (4) Show snippets and thumbnails -->
-                            <div class='item-content'>
-                              <b:if cond='data:post.thumbnail'>
-                                <div class='item-thumbnail'>
-                                  <a expr:href='data:post.href' target='_blank'>
-                                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
-                                  </a>
-                                </div>
-                              </b:if>
-                              <div class='item-title'>
-                                <a expr:href='data:post.href'>
-                                  <data:post.title/>
-                                </a>
-                              </div>
-                              <div class='item-snippet'>
-                                <data:post.snippet/>
-                              </div>
-                            </div>
-                            <div style='clear: both;'/>
-                          </b:if>
-                        </b:if>
-                      </li>
-                    </b:loop>
-                  </ul>
-                  <b:include name='quickedit'/>
-                </div>
-              </b:includable>
-            </b:widget>
-            <b:widget id='Feed2' locked='false' title='Blogger Tutorials' type='Feed'>
-              <b:includable id='main'>
-                <h2>
-                  <data:title/>
-                </h2>
-                <div class='widget-content' expr:id='data:widget.instanceId + &quot;_feedItemListDisplay&quot;'>
-                  <span style='filter: alpha(25); opacity: 0.25;'>
-                    <a expr:href='data:feedUrl'>
-                      <data:loadingMsg/>
-                    </a>
-                  </span>
+                <div class='widget-content'>
+                  <data:content/>
                 </div>
                 <b:include name='quickedit'/>
               </b:includable>
@@ -3126,6 +3158,85 @@ Child Category 4
               </b:includable>
             </b:widget>
           </b:section>
+          <div class='clear'/>
+          <ul class='tabs-menu'>
+            <li class='active' id='lnktab1' onclick='SwitchTab(false)'>
+              Popular Posts
+            </li>
+            <li id='lnktab2' onclick='SwitchTab(true)'>
+              Comments
+            </li>
+          </ul>
+          <div id='divsidebar-tab1'>
+            <b:section class='sidebarrightnbt' id='sidebar-tab1' preferred='yes'>
+              <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts'>
+                <b:includable id='main'>
+                  <div class='widget-content popular-posts'>
+                    <ul>
+                      <b:loop values='data:posts' var='post'>
+                        <li>
+                          <b:if cond='!data:showThumbnails'>
+                            <b:if cond='!data:showSnippets'>
+                              <!-- (1) No snippet/thumbnail -->
+                              <a expr:href='data:post.href'>
+                                <data:post.title/>
+                              </a>
+                              <b:else/>
+                              <!-- (2) Show only snippets -->
+                              <div class='item-title'>
+                                <a expr:href='data:post.href'>
+                                  <data:post.title/>
+                                </a>
+                              </div>
+                              <div class='item-snippet'>
+                                <data:post.snippet/>
+                              </div>
+                            </b:if>
+                            <b:else/>
+                            <!-- (3) Show only thumbnails or (4) Snippets and thumbnails. -->
+                            <div expr:class='data:showSnippets ? &quot;item-content&quot; : &quot;item-thumbnail-only&quot;'>
+                              <b:if cond='data:post.thumbnail'>
+                                <div class='item-thumbnail'>
+                                  <a expr:href='data:post.href' target='_blank'>
+                                    <img alt='' border='0' expr:height='data:thumbnailSize' expr:src='data:post.thumbnail' expr:width='data:thumbnailSize'/>
+                                  </a>
+                                </div>
+                              </b:if>
+                              <div class='item-title'>
+                                <a expr:href='data:post.href'>
+                                  <data:post.title/>
+                                </a>
+                              </div>
+                              <b:if cond='data:showSnippets'>
+                                <div class='item-snippet'>
+                                  <data:post.snippet/>
+                                </div>
+                              </b:if>
+                            </div>
+                            <div style='clear: both;'/>
+                          </b:if>
+                        </li>
+                      </b:loop>
+                    </ul>
+                    <b:include name='quickedit'/>
+                  </div>
+                </b:includable>
+              </b:widget>
+            </b:section>
+          </div>
+          <div id='divsidebar-tab2' style='display:none;'>
+            <b:section class='sidebarrightnbt' id='sidebar-tab2' preferred='yes'>
+              <b:widget id='HTML2' locked='false' title='Popular Comments' type='HTML'>
+                <b:includable id='main'>
+                  <!-- only display title if it's non-empty -->                  
+                  <div class='widget-content'>
+                    <data:content/>
+                  </div>
+                  <b:include name='quickedit'/>
+                </b:includable>
+              </b:widget>
+            </b:section>
+          </div>
         </div>
         <!-- end of sidebar -->
       </div>
